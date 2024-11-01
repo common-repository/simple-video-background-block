@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/video-background",
+	"version": "0.1.0",
+	"title": "Video Background",
+	"category": "widgets",
+	"icon": "video-alt",
+	"description": "Show a YouTube video as a background",
+  	"keywords": [ "youtube", "video", "background" ],
+	"supports": {
+		"html": false,
+	  	"align": true
+	},
+	"attributes": {
+	  "videoUrl": {
+		"type": "string"
+	  }
+	},
+	"textdomain": "video-background",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
